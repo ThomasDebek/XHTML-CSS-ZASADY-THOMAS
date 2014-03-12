@@ -1,0 +1,64 @@
+body {
+      font-size:   small;
+      Xfont-family: Verdana, Helvetica, Arial, sans-serif;
+      line-height: 1.6em;
+    width: 800px;
+}
+h1, h2 {
+      color: #007e7e;
+}
+h1 {
+      font-size: 150%;
+}
+h2 {
+      font-size: 130%
+}
+div {float: right;}
+
+#gwarancja {
+    line-height:         1.9em;
+    font-style:          italic;
+    font-family:         Georgia, "Times New Roman", Times, serif;
+    color:               #444444;
+    border-color:        white;
+    border-width:        1px;
+    border-style:        dashed;
+    background-color:    #a7cece;
+    padding:             25px;
+    padding-left:        80px;
+    margin:              30px;
+    margin-right:        250px;
+    background-image:    url(obrazy/tlo.gif);
+    background-repeat:   no-repeat;
+    background-position: top left;
+}
+#drinki {
+    width: 200px;
+    height:900px;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 1em;
+
+}
+#drinki h2 {
+    color:black;
+}
+#drinki h3 {
+    color: #d12c47;
+}
+.cd {color: green;}
+.artysta { color: blue;}
+
+#rewelka {
+    width: 200px;
+    float:right;
+
+}
+
+
+
+

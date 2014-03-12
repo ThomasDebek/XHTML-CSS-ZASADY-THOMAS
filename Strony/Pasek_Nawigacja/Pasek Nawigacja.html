@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+    <title>Padarz</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head>
+<body background="obrazy/tlo_chmury.jpg">
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#product">Product</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+</br>
+</br>
+</br>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Nasze Miasto</h1>
+        <p class="lead">Jedyne takie i wyjątkowe miejsce.<br> Nie ma takiego drugiego na tej Planecie.</p>
+    </div>
+
+
+
+    </br>
+    <p>Chcesz dowiedziec sie wiecej kliknij
+        <a href="Padarzowo.html"><c>Tutaj</c></a>
+    </p>
+
+    <p id="gwarancja">
+        A oto, co Ci gwarantujemy: W salonie dokładamy wszelkich możliwych starań,
+        aby podczas każdej wizyty zapewnić Ci, naszemu Gościowi, niezapomnianych
+        i unikalnych wrażeń. Niezależnie od tego, czy zajrzysz tylko po to, by
+        sprawdzić pocztę nad małym drinkiem, czy planujesz zamówić nadzwyczajny
+        obiad, to nasz fachowy personel dołoży wszelkich starań, aby obsługa
+        była pod każdym względem doskonała. Jeśli nie będziesz w pełni zadowolony,
+        to na koszt firmy dostaniesz drinka Niebiańska borówka.
+    </p>
+
+    <div id="asdf">
+        <p>
+            Ale to nie wszystko: wieczorem możesz zajrzeć do naszej sali tanecznej,
+            gdzie DJ puszcza wspaniałe kawałki, którym wprost nie sposób się oprzeć.
+            Ewentualnie możesz skorzystać z tanecznego baru i przysiąść na chwilkę
+            w jednym z naszych białych, winylowych boksów. Możesz także poprosić, by
+            drinki były Ci dostarczane z baru bezpośrednio na parkiet
+            sali tanecznej. Kiedy zmęczą Cię już muzyka i szaleństwa na parkiecie,
+            zawsze możesz wrócić do obszaru salonowego i odpocząć. Jednak
+            niezależnie od tego, gdzie byś się nie znalazł, wszędzie będziesz
+            bezprzewodowo podłączony do Internetu.
+        </p>
+    </div>
+    </br>
+    <div id="tabela_color">
+    <table>
+        <tr>
+            <th>Wybierz gatunek kawy</th>
+            <td>
+                <select name="gatunek">
+                    <option value="Mieszanka frimowa">Mieszanka Firmowwwa</option>
+                    <option value="Boliwia">Boliwijskie ziarna Supremo Shade</option>
+                    <option value="Gwatemala">Ziarna z Gwatemali</option>
+                    <option value="Kenia">Ziarna z Keni</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Typ</th>
+            <td>
+                <input type="radio" name="typziaren" value="Cale">Cale Ziarna </br>
+                <input type="radio" name="typziaren" value="mielone" checked="checked">Mielone </br>
+            </td>
+        </tr>
+        <tr>
+            <th>Dodatki</th>
+            <td>
+                <input type="checkbox" name="dodatki[]" value="opakowanie"/>Ozdobne opakowanie</br>
+                <input type="checkbox" name="dodatki[]" value="katlog" checked="checked"> Dolaczyc katalog do zamowienia</br>
+            </td>
+        </tr>
+        <tr>
+            <th>Adres wysylki</th>
+            <td>
+                <table>
+                    <tr>
+                        <td>Imie i nazwisko:</td>
+                        <td>
+                            <input  type="text" name="personalia">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Adres:</td>
+                        <td>
+                            <input type="text" name="adres">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Miejscowość:</td>
+                        <td>
+                            <input type="text" name="miejscowsc">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Wojewudzctwo:</td>
+                        <td>
+                            <input type="text" name="wojewudzctwo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kod pocztowy</td>
+                        <td>
+                            <input type="text" name="kodpocztowy">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <th>Komentarz</th>
+            <td>
+                <textarea rows="10" cols="48"  name="komentarz"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <input type="submit" value="Zamawiam"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Inne elementy tabeli</th>
+            <td>
+                <fieldset>
+                    <legend>Przyprawy</legend>
+                    <input type="checkbox" name="przyprawy" value="sol"/> Sol </br>
+                    <input type="checkbox" name="przyprawy" value="pieprz"/>Pieprz </br>
+                    <input type="checkbox" name="przyprawy" value="czosnek"/>Czosnek </br>
+
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <th>Etykiety</th>
+            <td>
+                <input type="radio" name="fajneczytanie" value="fajne" id="fajne" />
+                <label for="fajne">fajne</label>
+                <input type="radio" name="fajneczytanie" value="nie" id="niefajne"/>
+                <label for="niefajne">niefajne</label>
+            </td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td>
+                <input type="password" name="tajnkod">
+            </td>
+        </tr>
+        <tr>
+            <th>Przesylanie plikow na serwer</th>
+            <td>
+                <input type="file" name="document">
+            </td>
+        </tr>
+        <tr>
+            <th>Lista wielokrotnego wyboru - multiple</th>
+            <td>
+                <select name="bajki" multiple="multiple">
+                    <option value="bil">Bolek i Lolek</option>
+                    <option value="kf">Kot Filemon</option>
+                    <option value="Kp">Kubus Puchatek</option>
+                    <option value="k">Krecik</option>
+                    <option value="pm">Pszczólka Maja</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    </div>
+
+    <p id="kolor">
+        &copy; 2014, First WWW<br />
+        Wszystkie znaki firmowe pojawiające się na tej witrynie należą do ich właścicieli.
+    </p>
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
